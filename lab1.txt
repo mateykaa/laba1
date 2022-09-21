@@ -31,9 +31,9 @@ int main()
     
     // zadanie 4
     std::cout << "4." << "\n";
+	std::cout << "Enter the coefficients a * x = b:";
     int a,b;
     std::cin >> a >> b;
-    std::cout << "Enter the coefficients a * x = b: " << a << b << "\n";
     std::cout << a << " * x = " <<  b << "\n";
     std::cout << "x = " << b << "/" << a << "\n";
     std::cout << "x = " << b/a << "\n";
